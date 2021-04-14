@@ -1,0 +1,86 @@
+body {
+    font-family: verdana;
+    color:  #000;
+    background-image: url(18.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2,h3 {
+    text-align: center;
+}
+a {
+    background: deepskyblue;
+    color: black;
+    font-family: fantasy;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 2px;
+    padding: 7px;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: white;
+    background-color: grey;
+}
+.ftr {
+    background-color: darkgrey;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 520px;
+    width: 100%;
+    position: absolute;
+}
+.login {
+    width: 320px;
+    height: 420px;
+    background-color: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+.login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+.login input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login input[type="text"], input[type="password"], input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+}
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background-color: deepskyblue;
+    border-radius: 20px;
+}
+#pic {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+img {
+    border: 3px solid deepskyblue;
+    border-style: ridge;
+    border-radius: 20px;
+}
